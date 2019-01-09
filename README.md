@@ -3,4 +3,5 @@
 # iX HMI Software
 iX empowers you with modern tools to communicate. The software combines top-class graphics and smarter functions that provide intuitive operation on the spot. Not to mention the almost limitless connectivity to your other equipment through the extensive list of drivers.
 
-### test
+# Installation
+-[Beijer iX Developer](https://smartstore.beijerelectronics.com/en/Software/ix%20developer)
