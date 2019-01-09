@@ -5,3 +5,5 @@ iX empowers you with modern tools to communicate. The software combines top-clas
 
 # Installation
 * [Beijer iX Developer](https://smartstore.beijerelectronics.com/en/Software/ix%20developer)
+
+# Contributing
