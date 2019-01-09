@@ -7,4 +7,4 @@ iX empowers you with modern tools to communicate. The software combines top-clas
 * [Beijer iX Developer](https://smartstore.beijerelectronics.com/en/Software/ix%20developer)
 
 # Contributing
-The main purpose of this repository is to continue to iX sample script, making it faster and easier to use. 
+The main purpose of this repository is to continue to develop iX sample script, making it faster and easier to use. 
