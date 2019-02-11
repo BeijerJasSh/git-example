@@ -1,3 +1,4 @@
 ![Beijer Logo](https://mb.cision.com/Public/668/logo/80ef19c951201062_org.jpg)
 
-![image info](./pictures/Test.jpg)
+![Test](D:\GitHub\git-example\PCBase\pictures\Test.jpg)
+
