@@ -25,6 +25,7 @@ static string dataLogger_history = "DataLogger2";
 
 - Basic
   - Start Log
+    - ![](C:\Users\jassh\Pictures\Screenshots\螢幕擷取畫面 (1).png)
   - Stop Log
   - Log Once
 - DataLogger Query
