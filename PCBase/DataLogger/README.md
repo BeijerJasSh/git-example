@@ -6,7 +6,11 @@ Integrated Development Environment :  iX Developer 2.41.177.0
 
 Project Target : PC
 
+Additional Controls: DataGridView, DateTimePicker, ListView
+
 # Purpose
 
 Sample Script of Datalogger usage 
+
+# Features
 
