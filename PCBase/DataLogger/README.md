@@ -12,10 +12,11 @@ Additional Controls: DataGridView, DateTimePicker, ListView
 
 Sample Script of Datalogger usage. 
 
-In this sample project the default name of datalogger is 'DataLogger1' and the default name of  history datalogger is 'DataLogger2', adjust your script according to actual use conditions.
+In this sample project the default name of datalogger is 'DataLogger1' and the default name of  history datalogger is 'DataLogger2', adjust your script according to actual conditions.
 
 ```
-Select * From DataLogger1 
+static string dataLogger = "DataLogger1";
+static string dataLogger_history = "DataLogger2";
 ```
 
 
