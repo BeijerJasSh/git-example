@@ -47,7 +47,7 @@ static string dataLogger_history = "DataLogger2";
 
     - Choose the datalogger files export path and file naming function.
 
-      ![image](<https://github.com/BeijerTS/git-example/blob/master/WinCE/picture/exportsetting_x2pro.png>)
+      ![image](<https://github.com/BeijerTS/git-example/blob/master/WinCE/pictures/exportsetting_x2pro.png>)
 
   - Export Columns Setting
 
