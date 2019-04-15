@@ -24,6 +24,8 @@ namespace Neo.ApplicationFramework.Generated
 	
     public partial class Screen5
     {
+		static string dataLogger_history = "DataLogger2";
+		
 		string folderpath="";
 		DataTable dt=new DataTable();
 		
@@ -189,7 +191,7 @@ namespace Neo.ApplicationFramework.Generated
 					DateTime time= DateTime.Parse(dt.Rows[j].ItemArray[1].ToString());
 					string DateStr=time.ToString("yyyy-MM-dd HH:mm:ss");
 					StringBuilder sb = new StringBuilder();
-					sb.AppendLine("Insert into DataLogger2(");
+					sb.AppendLine("Insert into " + dataLogger_history + "(");
 					sb.AppendLine(string.Format("{0},{1},{2}","Time",importKey,importKey1));
 					sb.AppendLine(")");
 					sb.AppendLine("VALUES(");

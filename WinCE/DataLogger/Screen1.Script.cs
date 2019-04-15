@@ -24,6 +24,9 @@ namespace Neo.ApplicationFramework.Generated
 	
     public partial class Screen1
     {
+		static string dataLogger = "DataLogger1";
+		static string dataLogger_history = "DataLogger2";
+		
 		void Screen1_Opened(System.Object sender, System.EventArgs e)
 		{
 			// Initial Start date ComboBox
@@ -78,7 +81,7 @@ namespace Neo.ApplicationFramework.Generated
 		/// <returns></returns>
 		void SetColumnNameDictionary()
 		{
-			string sql = "PRAGMA table_info(DataLogger1)";
+			string sql = "PRAGMA table_info(" + dataLogger + ")";
 			DataTable rs = new DataTable();
 			rs = Globals.ScriptModule1.GetDataTable(sql);
 			int columnFlag = 1;
@@ -99,7 +102,7 @@ namespace Neo.ApplicationFramework.Generated
 		/// <returns></returns>
 		void SetImportColumnNameDictionary()
 		{
-			string sql = "PRAGMA table_info(DataLogger2)";
+			string sql = "PRAGMA table_info(" + dataLogger_history + ")";
 			DataTable rs = new DataTable();
 			rs = Globals.ScriptModule1.GetDataTable(sql);
 			int columnFlag = 1;
@@ -134,7 +137,7 @@ namespace Neo.ApplicationFramework.Generated
 						sb.Append(", " + Globals.ScriptModule1._dictionary.ElementAt(i).Key + " as "
 							+ Globals.ScriptModule1._dictionary.ElementAt(i).Value);
 				}
-				sb.Append(" From DataLogger1");
+				sb.Append(" From " + dataLogger);
 				rs = Globals.ScriptModule1.GetDataTable(sb.ToString());
 				DataGrid.DataSource = rs;
 				DataGrid.DataBindings.ToString();
@@ -184,7 +187,7 @@ namespace Neo.ApplicationFramework.Generated
 						sb.Append(", " + Globals.ScriptModule1._dictionary.ElementAt(i).Key + " as "
 							+ Globals.ScriptModule1._dictionary.ElementAt(i).Value);
 				}
-				sb.Append(" From DataLogger1 Where time > '" + startTime + "' AND time < '" + endTime + "'" );
+				sb.Append(" From " + dataLogger + " Where time > '" + startTime + "' AND time < '" + endTime + "'" );
 				rs = Globals.ScriptModule1.GetDataTable(sb.ToString());
 				DataGrid.DataSource = rs;
 				DataGrid.DataBindings.ToString();
@@ -229,14 +232,13 @@ namespace Neo.ApplicationFramework.Generated
 						sb.Append(", " + Globals.ScriptModule1._dictionary.ElementAt(i).Key + " as "
 							+ Globals.ScriptModule1._dictionary.ElementAt(i).Value);
 				}
-				sb.Append(" From DataLogger1");
+				sb.Append(" From " + dataLogger);
 				rs = Globals.ScriptModule1.GetDataTable(sb.ToString());
 				
 				// *** Different according to Project Target
 				switch(Globals.Tags.ExportOption.Value.Short)
 				{
 					case 1:
-						//filepath = Path.Combine(Environment.CurrentDirectory, "Project Files", ApplicationConstants.DatabaseExportFolder, "Data Loggers");
 						filepath = Neo.ApplicationFramework.Interfaces.FileDirectory.ProjectFiles + "\\" + ApplicationConstants.DatabaseExportFolder + @"\Data Loggers\";
 						if (string.IsNullOrEmpty(exportFileName))
 							CreateCSVFile(rs, filepath + exportDefaultName + " " + timeStamp + ".csv");
@@ -324,7 +326,7 @@ namespace Neo.ApplicationFramework.Generated
 						sb.Append(", " + Globals.ScriptModule1._importDictionary.ElementAt(i).Key + " as "
 							+ Globals.ScriptModule1._importDictionary.ElementAt(i).Value);
 				}
-				sb.Append(" From DataLogger2");
+				sb.Append(" From " + dataLogger_history);
 				rs = Globals.ScriptModule1.GetDataTable(sb.ToString());
 				DataGrid.DataSource = rs;
 				DataGrid.DataBindings.ToString();
