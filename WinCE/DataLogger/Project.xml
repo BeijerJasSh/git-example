@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project SchemaVersion="2.41.177.0" ProjectRevision="619">
+  <Guid>d4d34750-6322-46b5-b3c1-a6ceae50b4f9</Guid>
+  <ProjectFiles>
+    <ProjectFile Name="ProjectImages.neo" ModifiedDate="2019-03-05T09:48:18.4206438+08:00" Length="456" />
+    <ProjectFile Name="Symbols\beijer_logo_rgb.jpg" ModifiedDate="2019-02-19T14:16:36.4993468+08:00" Length="8954" />
+    <ProjectFile Name="Symbols\br_arrow previous.lib" ModifiedDate="2018-11-06T07:31:36+08:00" Length="23561" />
+    <ProjectFile Name="Symbols\br_ok9.lib" ModifiedDate="2018-11-06T07:31:36+08:00" Length="23377" />
+    <ProjectFile Name="SntpClientRootComponent.neo" ModifiedDate="2019-02-11T16:00:44.8073705+08:00" Length="470" />
+    <ProjectFile Name="ProjectConfiguration.neo" ModifiedDate="2019-03-04T17:53:42.094346+08:00" Length="7890" />
+    <ProjectFile Name="Security.neo" ModifiedDate="2019-02-11T16:00:44.8731945+08:00" Length="451" />
+    <ProjectFile Name="Security.xml" ModifiedDate="2019-02-11T16:00:44.8801765+08:00" Length="694" />
+    <ProjectFile Name="LicenseRootComponent.neo" ModifiedDate="2019-04-11T11:08:25.6041138+08:00" Length="18948" />
+    <ProjectFile Name="Expressions.neo" ModifiedDate="2019-02-11T16:00:44.8981593+08:00" Length="459" />
+    <ProjectFile Name="MultipleLanguages.neo" ModifiedDate="2019-04-11T13:57:47.7061601+08:00" Length="18838" />
+    <ProjectFile Name="Tags.neo" ModifiedDate="2019-04-11T11:08:25.7776773+08:00" Length="9857" />
+    <ProjectFile Name="AlarmServer.neo" ModifiedDate="2019-02-11T16:00:45.1514519+08:00" Length="1056" />
+    <ProjectFile Name="Screen1.neoxaml" ModifiedDate="2019-04-11T16:06:48.6609088+08:00" Length="799" />
+    <ProjectFile Name="Screen1.Script.cs" ModifiedDate="2019-04-11T16:06:48.6609088+08:00" Length="11894" />
+    <ProjectFile Name="Screen1.xaml" ModifiedDate="2019-04-11T16:06:48.7267716+08:00" Length="17268" />
+    <ProjectFile Name="Screen2.neoxaml" ModifiedDate="2019-04-11T11:08:26.4199639+08:00" Length="799" />
+    <ProjectFile Name="Screen2.Script.cs" ModifiedDate="2019-04-11T11:08:26.4209659+08:00" Length="782" />
+    <ProjectFile Name="Screen2.xaml" ModifiedDate="2019-04-11T11:08:26.4408779+08:00" Length="2264" />
+    <ProjectFile Name="Screen3.neoxaml" ModifiedDate="2019-04-11T15:41:14.2283196+08:00" Length="799" />
+    <ProjectFile Name="Screen3.Script.cs" ModifiedDate="2019-04-11T15:41:14.2283196+08:00" Length="2524" />
+    <ProjectFile Name="Screen3.xaml" ModifiedDate="2019-04-11T15:41:14.2432767+08:00" Length="6994" />
+    <ProjectFile Name="Screen4.neoxaml" ModifiedDate="2019-04-11T11:08:26.7690007+08:00" Length="799" />
+    <ProjectFile Name="Screen4.Script.cs" ModifiedDate="2019-04-11T11:08:26.769998+08:00" Length="1678" />
+    <ProjectFile Name="Screen4.xaml" ModifiedDate="2019-04-11T11:08:26.8777107+08:00" Length="5730" />
+    <ProjectFile Name="Screen5.neoxaml" ModifiedDate="2019-04-11T15:42:47.263979+08:00" Length="799" />
+    <ProjectFile Name="Screen5.Script.cs" ModifiedDate="2019-04-11T15:42:47.2649881+08:00" Length="6668" />
+    <ProjectFile Name="Screen5.xaml" ModifiedDate="2019-04-11T15:42:47.2839556+08:00" Length="6471" />
+    <ProjectFile Name="Screen6.neoxaml" ModifiedDate="2019-04-11T11:08:27.2677003+08:00" Length="799" />
+    <ProjectFile Name="Screen6.Script.cs" ModifiedDate="2019-04-11T11:08:27.2677003+08:00" Length="1718" />
+    <ProjectFile Name="Screen6.xaml" ModifiedDate="2019-04-11T11:08:27.3175367+08:00" Length="6981" />
+    <ProjectFile Name="Printer1.xml" ModifiedDate="2019-02-11T16:00:45.4386858+08:00" Length="850" />
+    <ProjectFile Name="Controller1.neo" ModifiedDate="2019-04-11T11:08:27.4382137+08:00" Length="1381" />
+    <ProjectFile Name="ScriptModule1.neo" ModifiedDate="2019-03-25T12:21:22.198302+08:00" Length="474" />
+    <ProjectFile Name="ScriptModule1.Script.cs" ModifiedDate="2019-03-25T12:21:22.1995169+08:00" Length="3621" />
+    <ProjectFile Name="DataLogger1.neo" ModifiedDate="2019-04-10T14:47:18.5523684+08:00" Length="4757" />
+    <ProjectFile Name="ScriptModule2.neo" ModifiedDate="2019-04-10T14:17:18.8596746+08:00" Length="474" />
+    <ProjectFile Name="ScriptModule2.Script.cs" ModifiedDate="2019-04-10T14:17:18.8606718+08:00" Length="2063" />
+    <ProjectFile Name="DataLogger2.neo" ModifiedDate="2019-04-10T14:47:18.5573549+08:00" Length="4706" />
+  </ProjectFiles>
+</Project>
