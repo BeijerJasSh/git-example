@@ -39,9 +39,15 @@ static string dataLogger_history = "DataLogger2";
     - Show the all data what you import.
 - Export 
   - Export Setting
+
     - Choose the datalogger files export path and file naming function.
+
+      ![image](<https://github.com/BeijerTS/git-example/blob/master/PCBase/pictures/exportsetting.png>)
+
   - Export Columns Setting
+
     - Setting the column name of query result and export files.
+
   - Export DataLogger
 - Import
   - Import CSV Files
