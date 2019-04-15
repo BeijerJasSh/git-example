@@ -1,2 +1,4 @@
-
-PCBase/pictures/Test.jpg
+#Ignore files build by iX Developer
+DyeingController/Temp/
+DyeingController/BuildFiles/
+!DyeingController/Symbols/*.lib
