@@ -25,17 +25,25 @@ static string dataLogger_history = "DataLogger2";
 
 - Basic
   - Start Log
+    - Enable the datalogger.
   - Stop Log
+    - Disable the datalogger.
   - Log Once
+    - Record a data.
 - DataLogger Query
   - Query All
+    - Show the all data in datalogger.
   - Query by Time
+    - Show the data In the time range.
   - History Data
+    - Show the all data what you import.
 - Export 
-  - Export DataLogger
   - Export Setting
+    - Choose the datalogger files export path and file naming function.
   - Export Columns Setting
+    - Setting the column name of query result and export files.
+  - Export DataLogger
 - Import
   - Import CSV Files
-  - Import Columns Setting
+    - According to export setting path to load all CSV files in th folder.
 
