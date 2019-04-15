@@ -113,7 +113,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_rbtExportOption2.ForeColor = System.Drawing.Color.Black;
             this.m_rbtExportOption2.Location = new System.Drawing.Point(33, 50);
             this.m_rbtExportOption2.Name = "m_rbtExportOption2";
-            this.m_rbtExportOption2.Size = new System.Drawing.Size(78, 14);
+            this.m_rbtExportOption2.Size = new System.Drawing.Size(163, 14);
             this.m_rbtExportOption2.TabIndex = 2147483647;
             this.m_rbtExportOption2.VisibleDynamicsValue = true;
             // 
@@ -126,7 +126,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_rbtExportOption3.ForeColor = System.Drawing.Color.Black;
             this.m_rbtExportOption3.Location = new System.Drawing.Point(33, 78);
             this.m_rbtExportOption3.Name = "m_rbtExportOption3";
-            this.m_rbtExportOption3.Size = new System.Drawing.Size(150, 14);
+            this.m_rbtExportOption3.Size = new System.Drawing.Size(176, 14);
             this.m_rbtExportOption3.TabIndex = 2147483647;
             this.m_rbtExportOption3.VisibleDynamicsValue = true;
             // 

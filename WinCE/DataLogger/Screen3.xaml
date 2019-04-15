@@ -6,7 +6,7 @@
       <nacxs:EventHandlerInfo EventName="Opened" MethodName="Screen3_Opened" />
     </nai:ScriptEventList>
   </nai:ScriptProperties.ScriptEvents>
-  <nacs:ElementCanvas Name="m_EditorCanvas" Width="312" Height="144" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Display" TextOptions.TextRenderingMode="ClearType">
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="312" Height="144" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Display" TextOptions.TextRenderingMode="ClearType" Panel.ZIndex="104">
     <nacw:RadioButton Text="Export to Project Files Folder" TextHorizontalAlignment="Left" TextVerticalAlignment="Top" AutoSize="True" AutoStretchFont="False" WordWrap="False" BorderBrush="#FF8E8F8F" BorderThickness="1,1,1,1" Background="#FFF4F4F4" FontFamily="Tahoma" FontSize="9" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="2.25,0,2.25,1" Name="m_rbtExportOption1" Width="139.5" Height="14" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="5" Canvas.Left="33" Canvas.Top="19" Content="Export to Project Files Folder">
       <nai:ScriptProperties.ScriptEvents>
         <nai:ScriptEventList>
@@ -14,14 +14,14 @@
         </nai:ScriptEventList>
       </nai:ScriptProperties.ScriptEvents>
     </nacw:RadioButton>
-    <nacw:RadioButton Text="Export to USB" TextHorizontalAlignment="Left" TextVerticalAlignment="Top" AutoSize="True" AutoStretchFont="False" WordWrap="False" BorderBrush="#FF8E8F8F" BorderThickness="1,1,1,1" Background="#FFF4F4F4" FontFamily="Tahoma" FontSize="9" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="2.25,0,2.25,1" Name="m_rbtExportOption2" Width="78.5" Height="14" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="6" Canvas.Left="33" Canvas.Top="50" Content="Export to USB">
+    <nacw:RadioButton Text="Export to USB" TextHorizontalAlignment="Left" TextVerticalAlignment="Top" AutoSize="False" AutoStretchFont="False" WordWrap="False" BorderBrush="#FF8E8F8F" BorderThickness="1,1,1,1" Background="#FFF4F4F4" FontFamily="Tahoma" FontSize="9" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="2.25,0,2.25,1" Name="m_rbtExportOption2" Width="163" Height="14" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="6" Canvas.Left="33" Canvas.Top="50" Content="Export to USB">
       <nai:ScriptProperties.ScriptEvents>
         <nai:ScriptEventList>
           <nacxs:EventHandlerInfo EventName="Click" MethodName="rbtExportOption2_Click" />
         </nai:ScriptEventList>
       </nai:ScriptProperties.ScriptEvents>
     </nacw:RadioButton>
-    <nacw:RadioButton Text="Export to external memory card" TextHorizontalAlignment="Left" TextVerticalAlignment="Top" AutoSize="True" AutoStretchFont="False" WordWrap="False" BorderBrush="#FF8E8F8F" BorderThickness="1,1,1,1" Background="#FFF4F4F4" FontFamily="Tahoma" FontSize="9" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="2.25,0,2.25,1" Name="m_rbtExportOption3" Width="149.5" Height="14" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="7" Canvas.Left="33" Canvas.Top="78" Content="Export to external memory card">
+    <nacw:RadioButton Text="Export to external memory card" TextHorizontalAlignment="Left" TextVerticalAlignment="Top" AutoSize="False" AutoStretchFont="False" WordWrap="False" BorderBrush="#FF8E8F8F" BorderThickness="1,1,1,1" Background="#FFF4F4F4" FontFamily="Tahoma" FontSize="9" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="2.25,0,2.25,1" Name="m_rbtExportOption3" Width="176" Height="14" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="7" Canvas.Left="33" Canvas.Top="78" Content="Export to external memory card">
       <nai:ScriptProperties.ScriptEvents>
         <nai:ScriptEventList>
           <nacxs:EventHandlerInfo EventName="Click" MethodName="rbtExportOption3_Click" />

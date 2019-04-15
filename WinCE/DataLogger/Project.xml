@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project SchemaVersion="2.41.177.0" ProjectRevision="629">
+<Project SchemaVersion="2.41.177.0" ProjectRevision="632">
   <Guid>d4d34750-6322-46b5-b3c1-a6ceae50b4f9</Guid>
   <ProjectFiles>
     <ProjectFile Name="ProjectImages.neo" ModifiedDate="2019-03-05T09:48:18.4206438+08:00" Length="456" />
@@ -21,9 +21,9 @@
     <ProjectFile Name="Screen2.neoxaml" ModifiedDate="2019-04-11T11:08:26.4199639+08:00" Length="799" />
     <ProjectFile Name="Screen2.Script.cs" ModifiedDate="2019-04-11T11:08:26.4209659+08:00" Length="782" />
     <ProjectFile Name="Screen2.xaml" ModifiedDate="2019-04-11T11:08:26.4408779+08:00" Length="2264" />
-    <ProjectFile Name="Screen3.neoxaml" ModifiedDate="2019-04-11T15:41:14.2283196+08:00" Length="799" />
-    <ProjectFile Name="Screen3.Script.cs" ModifiedDate="2019-04-11T15:41:14.2283196+08:00" Length="2524" />
-    <ProjectFile Name="Screen3.xaml" ModifiedDate="2019-04-11T15:41:14.2432767+08:00" Length="6994" />
+    <ProjectFile Name="Screen3.neoxaml" ModifiedDate="2019-04-15T14:39:01.1087801+08:00" Length="799" />
+    <ProjectFile Name="Screen3.Script.cs" ModifiedDate="2019-04-15T14:39:01.1087801+08:00" Length="2524" />
+    <ProjectFile Name="Screen3.xaml" ModifiedDate="2019-04-15T14:39:01.1257391+08:00" Length="7012" />
     <ProjectFile Name="Screen4.neoxaml" ModifiedDate="2019-04-11T11:08:26.7690007+08:00" Length="799" />
     <ProjectFile Name="Screen4.Script.cs" ModifiedDate="2019-04-11T11:08:26.769998+08:00" Length="1678" />
     <ProjectFile Name="Screen4.xaml" ModifiedDate="2019-04-11T11:08:26.8777107+08:00" Length="5730" />
