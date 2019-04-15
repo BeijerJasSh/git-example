@@ -14,21 +14,21 @@
         </nai:ScriptEventList>
       </nai:ScriptProperties.ScriptEvents>
     </nacw:RadioButton>
-    <nacw:RadioButton Text="Export to USB" TextHorizontalAlignment="Left" TextVerticalAlignment="Top" AutoSize="False" AutoStretchFont="False" WordWrap="False" BorderBrush="#FF8E8F8F" BorderThickness="1,1,1,1" Background="#FFF4F4F4" FontFamily="Tahoma" FontSize="9" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="2.25,0,2.25,1" Name="m_rbtExportOption2" Width="163" Height="14" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="6" Canvas.Left="33" Canvas.Top="50" Content="Export to USB">
+    <nacw:RadioButton Text="Export to USB" TextHorizontalAlignment="Left" TextVerticalAlignment="Top" AutoSize="False" AutoStretchFont="False" WordWrap="False" BorderBrush="#FF8E8F8F" BorderThickness="1,1,1,1" Background="#FFF4F4F4" FontFamily="Tahoma" FontSize="9" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="2.25,0,2.25,1" Name="m_rbtExportOption2" Width="109" Height="14" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="6" Canvas.Left="33" Canvas.Top="50" Content="Export to USB">
       <nai:ScriptProperties.ScriptEvents>
         <nai:ScriptEventList>
           <nacxs:EventHandlerInfo EventName="Click" MethodName="rbtExportOption2_Click" />
         </nai:ScriptEventList>
       </nai:ScriptProperties.ScriptEvents>
     </nacw:RadioButton>
-    <nacw:RadioButton Text="Export to external memory card" TextHorizontalAlignment="Left" TextVerticalAlignment="Top" AutoSize="False" AutoStretchFont="False" WordWrap="False" BorderBrush="#FF8E8F8F" BorderThickness="1,1,1,1" Background="#FFF4F4F4" FontFamily="Tahoma" FontSize="9" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="2.25,0,2.25,1" Name="m_rbtExportOption3" Width="176" Height="14" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="7" Canvas.Left="33" Canvas.Top="78" Content="Export to external memory card">
+    <nacw:RadioButton Text="Export to external memory card" TextHorizontalAlignment="Left" TextVerticalAlignment="Top" AutoSize="False" AutoStretchFont="False" WordWrap="False" BorderBrush="#FF8E8F8F" BorderThickness="1,1,1,1" Background="#FFF4F4F4" FontFamily="Tahoma" FontSize="9" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="2.25,0,2.25,1" Name="m_rbtExportOption3" Width="190" Height="14" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="7" Canvas.Left="33" Canvas.Top="78" Content="Export to external memory card">
       <nai:ScriptProperties.ScriptEvents>
         <nai:ScriptEventList>
           <nacxs:EventHandlerInfo EventName="Click" MethodName="rbtExportOption3_Click" />
         </nai:ScriptEventList>
       </nai:ScriptProperties.ScriptEvents>
     </nacw:RadioButton>
-    <nac:AnalogNumericFX AutoStretchFont="False" DisplayFormat="String" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" IsReadOnly="False" BorderBrush="#FF7F9DB9" BorderThickness="1,1,1,1" Foreground="#FF000000" FontSize="9" Padding="2,2,2,2" Name="m_AnalogNumericFileName" Width="145" Height="22" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsEnabled="False" Focusable="True" Panel.ZIndex="9" KeyboardNavigation.TabNavigation="None" Canvas.Left="142" Canvas.Top="105" nac:EnabledProperties.EnabledDynamicsValue="False">
+    <nac:AnalogNumericFX AutoStretchFont="False" DisplayFormat="String" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" IsReadOnly="False" BorderBrush="#FF7F9DB9" BorderThickness="1,1,1,1" Foreground="#FF000000" FontSize="9" Padding="2,2,2,2" Name="m_AnalogNumericFileName" Width="124" Height="22" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsEnabled="False" Focusable="True" Panel.ZIndex="9" KeyboardNavigation.TabNavigation="None" Canvas.Left="163" Canvas.Top="105" nac:EnabledProperties.EnabledDynamicsValue="False">
       <nac:AnalogNumericFX.Resources>
         <ResourceDictionary>
           <nacc:VariantValueConverter x:Key="ValueConverter" />
@@ -56,7 +56,7 @@
         </LinearGradientBrush>
       </nac:AnalogNumericFX.Background>
     </nac:AnalogNumericFX>
-    <nacw:CheckBox Text="Name of exported file" TextHorizontalAlignment="Left" TextVerticalAlignment="Top" AutoSize="True" AutoStretchFont="False" WordWrap="False" BorderBrush="#FF8E8F8F" BorderThickness="1,1,1,1" Background="#FFF4F4F4" FontFamily="Tahoma" FontSize="9" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="2.25,0,2.25,1" Name="m_cbExportFilesName" Width="109.474980354309" Height="15.0983400344849" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="10" Canvas.Left="33" Canvas.Top="109" Content="Name of exported file">
+    <nacw:CheckBox Text="Name of exported file" TextHorizontalAlignment="Left" TextVerticalAlignment="Top" AutoSize="False" AutoStretchFont="False" WordWrap="False" BorderBrush="#FF8E8F8F" BorderThickness="1,1,1,1" Background="#FFF4F4F4" FontFamily="Tahoma" FontSize="9" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="2.25,0,2.25,1" Name="m_cbExportFilesName" Width="122" Height="15.0983400344849" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="10" Canvas.Left="33" Canvas.Top="109" Content="Name of exported file">
       <nai:ScriptProperties.ScriptEvents>
         <nai:ScriptEventList>
           <nacxs:EventHandlerInfo EventName="Click" MethodName="cbExportFilesName_Click" />

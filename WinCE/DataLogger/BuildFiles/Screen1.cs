@@ -281,7 +281,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_queryStartDate.Name = "m_queryStartDate_DateTimePicker";
             this.m_queryStartDate.Size = new System.Drawing.Size(120, 22);
             this.m_queryStartDate.TabIndex = 0;
-            this.m_queryStartDate.Value = new System.DateTime(2019, 4, 15, 14, 29, 29, 836);
+            this.m_queryStartDate.Value = new System.DateTime(2019, 4, 15, 14, 47, 38, 549);
             // 
             // m_cbbEndHour
             // 
@@ -364,7 +364,7 @@ namespace Neo.ApplicationFramework.Generated {
             this.m_queryEndDate.Name = "m_queryEndDate_DateTimePicker";
             this.m_queryEndDate.Size = new System.Drawing.Size(120, 22);
             this.m_queryEndDate.TabIndex = 0;
-            this.m_queryEndDate.Value = new System.DateTime(2019, 4, 15, 14, 29, 29, 845);
+            this.m_queryEndDate.Value = new System.DateTime(2019, 4, 15, 14, 47, 38, 556);
             // 
             // m_DataGrid
             // 
