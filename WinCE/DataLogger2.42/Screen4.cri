@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.42.138.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="Screen4.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Screen4.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Screen4.AnalogNumericColumnName01" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Screen4.AnalogNumericColumnName02" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Screen4.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Screen4.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Screen4.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Screen4.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Screen4.AnalogNumericTimeColumnName" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Screen4.AnalogNumericIdColumnName" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Screen4.AnalogNumericIdColumnWidth" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Screen4.AnalogNumericTimeColumnWidth" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Screen4.AnalogNumericColumnWidth01" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="Screen4.AnalogNumericColumnWidth02" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="Screen4.AnalogNumericColumnName01" TargetProperty="Value" Source="Tags.ColumnName01" />
+        <Item Target="Screen4.AnalogNumericColumnName02" TargetProperty="Value" Source="Tags.ColumnName02" />
+        <Item Target="Screen4.AnalogNumericTimeColumnName" TargetProperty="Value" Source="Tags.TimeColumnName" />
+        <Item Target="Screen4.AnalogNumericIdColumnName" TargetProperty="Value" Source="Tags.IdColumnName" />
+        <Item Target="Screen4.AnalogNumericIdColumnWidth" TargetProperty="Value" Source="Tags.IdColumnWidth" />
+        <Item Target="Screen4.AnalogNumericTimeColumnWidth" TargetProperty="Value" Source="Tags.TimeColumnWidth" />
+        <Item Target="Screen4.AnalogNumericColumnWidth01" TargetProperty="Value" Source="Tags.ColumnWidth01" />
+        <Item Target="Screen4.AnalogNumericColumnWidth02" TargetProperty="Value" Source="Tags.ColumnWidth02" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>Screen4</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>14</ObjectsCount>
+          <ScreenName>Screen4</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

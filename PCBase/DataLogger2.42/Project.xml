@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project SchemaVersion="2.42.138.0" ProjectRevision="692">
+  <Guid>d4d34750-6322-46b5-b3c1-a6ceae50b4f9</Guid>
+  <ProjectFiles>
+    <ProjectFile Name="ProjectImages.neo" ModifiedDate="2019-06-18T13:39:19.9519077+08:00" Length="456" />
+    <ProjectFile Name="Symbols\beijer_logo_rgb.jpg" ModifiedDate="2019-06-17T02:43:52+08:00" Length="8954" />
+    <ProjectFile Name="SntpClientRootComponent.neo" ModifiedDate="2019-06-18T13:39:16.9275698+08:00" Length="441" />
+    <ProjectFile Name="ProjectConfiguration.neo" ModifiedDate="2019-06-18T13:39:16.932591+08:00" Length="7861" />
+    <ProjectFile Name="Security.neo" ModifiedDate="2019-06-18T13:39:16.933554+08:00" Length="422" />
+    <ProjectFile Name="Security.xml" ModifiedDate="2019-06-17T02:43:52+08:00" Length="677" />
+    <ProjectFile Name="LicenseRootComponent.neo" ModifiedDate="2019-06-18T13:39:20.1245529+08:00" Length="19269" />
+    <ProjectFile Name="Expressions.neo" ModifiedDate="2019-06-18T13:39:16.9895628+08:00" Length="430" />
+    <ProjectFile Name="MultipleLanguages.neo" ModifiedDate="2019-06-18T13:39:16.9606421+08:00" Length="24742" />
+    <ProjectFile Name="Tags.neo" ModifiedDate="2019-06-18T13:39:20.1784379+08:00" Length="13424" />
+    <ProjectFile Name="Tags.Script.cs" ModifiedDate="2019-06-18T13:39:20.1794051+08:00" Length="1618" />
+    <ProjectFile Name="AlarmServer.neo" ModifiedDate="2019-06-18T13:39:16.9736061+08:00" Length="1027" />
+    <ProjectFile Name="Screen1.neoxaml" ModifiedDate="2019-06-19T13:36:56.1854214+08:00" Length="799" />
+    <ProjectFile Name="Screen1.Script.cs" ModifiedDate="2019-06-19T13:36:56.1864193+08:00" Length="9705" />
+    <ProjectFile Name="Screen1.xaml" ModifiedDate="2019-06-19T13:36:56.2472867+08:00" Length="18339" />
+    <ProjectFile Name="Screen2.neoxaml" ModifiedDate="2019-06-18T13:39:16.9825835+08:00" Length="770" />
+    <ProjectFile Name="Screen2.Script.cs" ModifiedDate="2019-06-17T02:43:52+08:00" Length="760" />
+    <ProjectFile Name="Screen2.xaml" ModifiedDate="2019-06-17T02:43:52+08:00" Length="2271" />
+    <ProjectFile Name="Screen3.neoxaml" ModifiedDate="2019-06-18T13:39:16.984576+08:00" Length="770" />
+    <ProjectFile Name="Screen3.Script.cs" ModifiedDate="2019-06-17T14:46:13.0786067+08:00" Length="2582" />
+    <ProjectFile Name="Screen3.xaml" ModifiedDate="2019-06-17T14:46:13.1453516+08:00" Length="8931" />
+    <ProjectFile Name="Screen4.neoxaml" ModifiedDate="2019-06-18T13:39:16.9865714+08:00" Length="770" />
+    <ProjectFile Name="Screen4.Script.cs" ModifiedDate="2019-06-18T10:59:36.9506687+08:00" Length="780" />
+    <ProjectFile Name="Screen4.xaml" ModifiedDate="2019-06-18T10:59:37.0414268+08:00" Length="19399" />
+    <ProjectFile Name="Screen5.neoxaml" ModifiedDate="2019-06-19T13:33:58.4509844+08:00" Length="799" />
+    <ProjectFile Name="Screen5.Script.cs" ModifiedDate="2019-06-19T13:33:58.4519825+08:00" Length="7294" />
+    <ProjectFile Name="Screen5.xaml" ModifiedDate="2019-06-19T13:33:58.4729257+08:00" Length="4925" />
+    <ProjectFile Name="Printer1.xml" ModifiedDate="2019-06-17T02:43:52+08:00" Length="827" />
+    <ProjectFile Name="Controller1.neo" ModifiedDate="2019-06-18T13:39:16.9895628+08:00" Length="1339" />
+    <ProjectFile Name="DataBaseScriptModule.neo" ModifiedDate="2019-06-19T13:36:13.6834372+08:00" Length="481" />
+    <ProjectFile Name="DataBaseScriptModule.Script.cs" ModifiedDate="2019-06-19T13:36:13.6834372+08:00" Length="6896" />
+    <ProjectFile Name="DataLogger1.neo" ModifiedDate="2019-06-18T13:39:16.9756016+08:00" Length="4728" />
+    <ProjectFile Name="UtilityScriptModule.neo" ModifiedDate="2019-06-18T13:39:16.9765991+08:00" Length="451" />
+    <ProjectFile Name="UtilityScriptModule.Script.cs" ModifiedDate="2019-06-18T13:35:24.1131073+08:00" Length="3353" />
+    <ProjectFile Name="DataLogger2.neo" ModifiedDate="2019-06-18T13:39:16.9785933+08:00" Length="4677" />
+  </ProjectFiles>
+</Project>

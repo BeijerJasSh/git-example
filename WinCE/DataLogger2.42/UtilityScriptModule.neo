@@ -1,0 +1,3 @@
+﻿<?xml version="1.0" encoding="utf-8"?><NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.ScriptModule.ScriptModule, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="UtilityScriptModule" IsPublic="False" d1p1:Site.Name="UtilityScriptModule" ProjectGuid="d4d34750-6322-46b5-b3c1-a6ceae50b4f9" />
+</NeoItem>

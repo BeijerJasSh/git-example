@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.42.138.0'?>
+<nacs:ScreenWindow Top="114" Left="211" Topmost="False" Title="Screen5" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="Manual" WindowState="Normal" BorderStyle="ThreeDBorder" ScreenSize="858, 641" ScreenPosition="211, 114" PopupScreen="True" StyleName="Default" IsCacheable="False" Width="858" Height="641" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nacxs="clr-namespace:Neo.ApplicationFramework.Common.Xaml.Serializer;assembly=Common" xmlns:nacn="clr-namespace:Neo.ApplicationFramework.Controls.NeoWindowsFormsHost;assembly=Controls" xmlns:swf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Common;assembly=Common" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" x:Class="Neo.ApplicationFramework.Generated.Screen5">
+  <nai:ScriptProperties.ScriptEvents>
+    <nai:ScriptEventList>
+      <nacxs:EventHandlerInfo EventName="Opened" MethodName="Screen5_Opened" />
+    </nai:ScriptEventList>
+  </nai:ScriptProperties.ScriptEvents>
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="858" Height="641" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Ideal" TextOptions.TextRenderingMode="Auto" Panel.ZIndex="104">
+    <nacn:NeoWindowsFormsHost Background="#FFFFFFFF" Name="m_ListView" Width="824.742268041237" Height="192.007483163505" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="1" Canvas.Left="15.7420463363258" Canvas.Top="20.4658020175145">
+      <nacn:NeoWindowsFormsHost.Control>
+        <swf:ListView Text="ListView" Enabled="True" Font="新細明體, 9pt" Location="0, 0" Name="m_ListView_ListView" Size="824, 192" TabIndex="0" />
+      </nacn:NeoWindowsFormsHost.Control>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="SelectedIndexChanged" MethodName="ListView_SelectedIndexChanged" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nacn:NeoWindowsFormsHost>
+    <nacn:NeoWindowsFormsHost Background="#FFFFFFFF" Name="m_DataGrid" Width="825.488641134487" Height="365.731047032579" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="2" Canvas.Left="14.9956732430762" Canvas.Top="220.47328518102">
+      <nacn:NeoWindowsFormsHost.Control>
+        <swf:DataGrid DataMember="" BackgroundColor="AppWorkspace" ReadOnly="True" RowHeadersVisible="False" Enabled="True" Font="新細明體, 9pt" Location="0, 0" Name="m_DataGrid_DataGrid" Size="825, 365" TabIndex="0" />
+      </nacn:NeoWindowsFormsHost.Control>
+    </nacn:NeoWindowsFormsHost>
+    <nac:Button Text="Import" RequiresTransparency="True" SymbolTransparent="False" FontSize="15" Name="m_btnImport" Width="100" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="3" Canvas.Left="632.484314377563" Canvas.Top="594.204332213599" Style="{nac1:StyleMarkupExtension Default}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnImport_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="Close" RequiresTransparency="True" SymbolTransparent="False" FontSize="15" Name="m_Button1" Width="100" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="4" Canvas.Left="740.484314377563" Canvas.Top="594.204332213599" Style="{nac1:StyleMarkupExtension Default}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Close Screen">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Close" ObjectName="" EventName="Click" ReferenceType="This" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="True" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>

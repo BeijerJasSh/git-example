@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataSourceContainer, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Driver="Demo_Pre2.Demo_Pre2.1" Servername="Beijer.InprocessNeo.1" Node="" TargetInfoString="iXDeveloper;WinCe8;Beijer;Exter iX;X2 pro 7;en;" d1p1:Site.Name="Controller1" ProjectGuid="d4d34750-6322-46b5-b3c1-a6ceae50b4f9">
+    <OpcUaNamespaceInfos>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcUaClient.OpcUaNamespaceInfos, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" />
+    </OpcUaNamespaceInfos>
+    <DataItems>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" ItemID="C0" DataType="DT_INTEGER2" d1p1:Site.Name="DataItem1" ProjectGuid="d4d34750-6322-46b5-b3c1-a6ceae50b4f9" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" ItemID="C1" DataType="DT_INTEGER2" d1p1:Site.Name="DataItem2" ProjectGuid="d4d34750-6322-46b5-b3c1-a6ceae50b4f9" />
+    </DataItems>
+  </Object>
+</NeoItem>
